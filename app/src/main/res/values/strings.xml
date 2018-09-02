@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Module2</string>
+
+    <string name="username">Logged in: JDOE</string>
+
+    //Page Names
+    <string name="customer_title">Customers</string>
+    <string name="sessions_title">Upcoming Sessions</string>
+    <string name="home_title">Home</string>
+
+    //Button Names
+    <string name="logout_button_text">Logout</string>
+    <string name="exit_button_text">Exit</string>
+    <string name="customers_button_text">Customers</string>
+    <string name="sessions_button_text">Sessions</string>
+
+
+    //Menu Strings
+    <string name="home_option">Home</string>
+    <string name="customers_option">Customers</string>
+    <string name="create_customer">Create Customer</string>
+    <string name="create_session">Create Session</string>
+    <string name="title_activity_sessions">Sessions</string>
+    <string name="title_activity_customers">Customers</string>
+    <string name="title_activity_create_user">Sign in</string>
+
+    //Create Customer Titles
+    <string name="billingInformationTitle">Billing Info</string>
+    <string name="customerInfoTitle">Basic Info</string>
+
+    //Create Customer Hints
+    <string name="streetAddressHint">Street Address</string>
+    <string name="aptNumberHint">Street Address Line 2</string>
+    <string name="cityHint">City</string>
+    <string name="stateHint">State</string>
+    <string name="zipHint">Postal Code</string>
+    <string name="creditCardNumberHint">Credit Card Number</string>
+    <string name="creditCardExpirationHint">Expiration Date</string>
+    <string name="securityCodeHint">Security Code</string>
+</resources>
