@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:name="com.bignerdranch.android.module2.Toolbar"
+        android:id="@+id/user_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/session_view_customer_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/session_view_customer_name"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/session_view_date_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/session_view_date"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/session_view_time_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/session_view_time"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/sesssion_view_details_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/session_view_details"
+        android:textAlignment="center" />
+
+    <Switch
+        android:id="@+id/session_complete_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/session_view_mark_complete" />
+
+    <Button
+        android:id="@+id/session_view_process_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/session_view_process" />
+
+    <TextView
+        android:id="@+id/signature_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="Signature Placeholder"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/session_view_receipt_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/session_view_receipt" />
+
+</LinearLayout>

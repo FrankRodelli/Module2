@@ -7,6 +7,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -20,6 +21,7 @@ public class Customers extends AppCompatActivity {
         setContentView(R.layout.activity_customers);
 
         setTitle("Customers");
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setImageResource(R.drawable.add);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -44,6 +46,15 @@ public class Customers extends AppCompatActivity {
                 android.R.layout.simple_list_item_1,sessionItems);
 
         myListView.setAdapter(aa);
+
+        //TODO: Add the ability to pass what customer you've clicked on to display proper content
+        myListView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(Customers.this,CustomerView.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }

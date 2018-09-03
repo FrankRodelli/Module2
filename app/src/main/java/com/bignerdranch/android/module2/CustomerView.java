@@ -1,9 +1,9 @@
 package com.bignerdranch.android.module2;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
@@ -12,31 +12,30 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class Sessions extends AppCompatActivity {
+public class CustomerView extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sessions);
+        setContentView(R.layout.activity_customer_view);
 
-        setTitle("Sessions");
+        setTitle("Customer Name");
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setImageResource(R.drawable.add);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Sessions.this, CreateSession.class);
-                startActivity(intent);
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
             }
         });
 
-       //Populate list with sessions
-        ListView myListView = findViewById(R.id.session_list);
+        //Populate list with sessions
+        ListView myListView = findViewById(R.id.user_session_lv);
         final ArrayList<String> sessionItems = new ArrayList<String>();
 
         for (int i = 0; i < 20; i++){
-            sessionItems.add("Sample session");
+            sessionItems.add("Sample Customer Session");
         }
 
         final ArrayAdapter<String > aa;
@@ -49,9 +48,10 @@ public class Sessions extends AppCompatActivity {
         myListView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(Sessions.this,SessionView.class);
+                Intent intent = new Intent(CustomerView.this,SessionView.class);
                 startActivity(intent);
             }
         });
     }
+
 }

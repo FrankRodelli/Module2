@@ -29,6 +29,10 @@
     <string name="customerInfoTitle">Basic Info</string>
 
     //Create Customer Hints
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="email_hint">Email</string>
+    <string name="phone_hint">Phone</string>
     <string name="streetAddressHint">Street Address</string>
     <string name="aptNumberHint">Street Address Line 2</string>
     <string name="cityHint">City</string>
@@ -37,4 +41,33 @@
     <string name="creditCardNumberHint">Credit Card Number</string>
     <string name="creditCardExpirationHint">Expiration Date</string>
     <string name="securityCodeHint">Security Code</string>
+    <string name="create_customer_button">Create Customer</string>
+
+    //Create Session Strings
+    <string name="create_session_title">Session Details</string>
+    <string name="customer_first_name_hint">Customer First Name</string>
+    <string name="customer_last_name_hint">Customer Last Name</string>
+    <string name="session_create_date">Date</string>
+    <string name="session_create_time">Time</string>
+    <string name="session_create_details">Details</string>
+    <string name="create_session_button">Create Session</string>
+    <string name="title_activity_session_view">SessionView</string>
+    <string name="title_activity_customer_view">CustomerView</string>
+
+    //Customer view strings
+    <string name="customer_view_name">First Name Last Name</string>
+    <string name="customer_view_number">(727) 867-5309</string>
+    <string name="customer_view_email">Myemail@gmail.com</string>
+
+    //Session view strings
+    <string name="session_view_title">Session</string>
+    <string name="session_view_customer_name">Customer Name</string>
+    <string name="session_view_date">12/24/2012</string>
+    <string name="session_view_time">12:24pm</string>
+    <string name="session_view_details">These are the details of the session
+    they are very basic </string>
+    <string name="session_view_mark_complete">Session Complete</string>
+    <string name="session_view_process">Process Billing</string>
+    <string name="session_view_signature">Customer Signature</string>
+    <string name="session_view_receipt">Generate Receipt</string>
 </resources>

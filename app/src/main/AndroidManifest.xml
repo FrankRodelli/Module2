@@ -29,7 +29,16 @@
             android:name=".Customers"
             android:label="@string/title_activity_customers"
             android:theme="@style/AppTheme" />
-        <activity android:name=".CreateCustomer"></activity>
+        <activity android:name=".CreateCustomer" />
+        <activity android:name=".CreateSession" />
+        <activity
+            android:name=".SessionView"
+            android:label="@string/title_activity_session_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CustomerView"
+            android:label="@string/title_activity_customer_view"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
