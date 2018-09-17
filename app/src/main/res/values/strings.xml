@@ -23,10 +23,15 @@
     <string name="title_activity_sessions">Sessions</string>
     <string name="title_activity_customers">Customers</string>
     <string name="title_activity_create_user">Sign in</string>
+    <string name="logout_option">Logout</string>
+    <string name="logout_dialog">Logging you out</string>
+    <string name="logout_positive_button">Continue</string>
+    <string name="logout_negative_button">Cancel</string>
 
     //Create Customer Titles
     <string name="billingInformationTitle">Billing Info</string>
     <string name="customerInfoTitle">Basic Info</string>
+    <string name="customerCreatedString">Customer Created!</string>
 
     //Create Customer Hints
     <string name="first_name_hint">First Name</string>
@@ -70,4 +75,18 @@
     <string name="session_view_process">Process Billing</string>
     <string name="session_view_signature">Customer Signature</string>
     <string name="session_view_receipt">Generate Receipt</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
 </resources>
